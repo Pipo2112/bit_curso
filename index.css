@@ -1,0 +1,48 @@
+header{
+    background: blue;
+    border: solid 1px #ebebeb;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 39px;
+}
+
+footer{
+    background: blueviolet;
+    border: solid 1px #ebebeb;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 39px;
+}
+
+div#work_area{
+    position: absolute;
+    top: 41px;
+    border: solid 1px #ebebeb;
+    width: 100%;
+    left: 0px;
+    height: calc(100% - 83px);
+    background: #ebebeb;
+}
+
+.item{
+    width: 200px;
+    height: 150px;
+    margin: auto;
+    border-radius: 50%;
+    transition: all 0.5s ease-in-out;
+}
+.item:hover{
+    width: 400px;
+    height: 250px;
+
+}
+
+.item img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
