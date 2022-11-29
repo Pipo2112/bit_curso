@@ -1,48 +1,31 @@
-header{
-    background: blue;
-    border: solid 1px #ebebeb;
-    position: absolute;
+.header{    
     top: 0px;
     left: 0px;
     width: 100%;
-    height: 39px;
+    height: 200px;
 }
-
-footer{
-    background: blueviolet;
-    border: solid 1px #ebebeb;
-    position: absolute;
-    bottom: 0px;
-    left: 0px;
+.header__logo{
     width: 100%;
-    height: 39px;
-}
-
-div#work_area{
-    position: absolute;
-    top: 41px;
-    border: solid 1px #ebebeb;
-    width: 100%;
-    left: 0px;
-    height: calc(100% - 83px);
-    background: #ebebeb;
-}
-
-.item{
-    width: 200px;
-    height: 150px;
-    margin: auto;
-    border-radius: 50%;
-    transition: all 0.5s ease-in-out;
-}
-.item:hover{
-    width: 400px;
-    height: 250px;
-
-}
-
-.item img{
-    width: 100%;
+    max-width: 280px;
     height: 100%;
-    border-radius: 50%;
+    object-fit: contain;
+}
+.work-area{
+    max-width: 1400px;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    font-family: 'Rubik Microbe', cursive;
+    font-family: 'Source Code Pro', monospace;
+}
+.work-area img{
+    width: 30%;
+    border-radius: 250px;
+}
+p{
+    font-size: 20px;
+}
+h1,h2,p{
+    line-height: 12px;
+    font-size: 18px;
 }
